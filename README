@@ -1,16 +1,52 @@
+hello/hola
+
 Good morning, my name is Juan Diego Hernandez and my partner Thomas Cuellar from the La Salle Panama group (Mech Force). We made this robot project in a mobile car model to demonstrate the force,
 mechanics, process and effort it takes to create a mobile device. It was also designed to handle automatically and provide a basis for a dependent and functional robot form.
+
 It is also a way to exemplify how a robot should be assembled, whether in terms of programming or construction. 
 We also wanted to join future engineers to experience the effort of creating a robot and also what are the steps to follow or how creative one must be.
 we did this project to learn and make our lives easier after school and also to try new experiences, also that robotics is a subject that personally and that of my group 
 has interested us a lot and motivates us to continue trying and experimenting
 our motivation was the movies and characters made from robots and cables like: cyborg, pacific rim and also robot fighting programs and others,
 besides that this helps us academically and we like it in the term that it is fun and fascinating the programming and creation of these and it teaches us that life has very interesting things,
+
+CHALLENGES/RETOS
+
 our robot started as a model based on a truck without a system that controlled the rotation of the front wheels and they were only attached to the robot 's engine from the bottom,
 then we modified the robot with a rotation system on its own axis and from there we were making small changes and reinforcing it with connections and others
 our biggest difficulty is the rotation of the robot since apparently this is very heavy and the tires slip and does not They will guide well in addition to the fact that this one does not hold up
 and the front wheels come off as it turns, this robot is based on one that I made with my team last year which was an Arduino, the current robot is a Lego spike made of a motor that turns two gears that move the robot forward and a forward turning movement 
 that also uses a motor that is connected to a gear line and that has a conpe stick in front
-a stick with small yeasts, our rear motor in a large angular motor for more momentum since it is the heaviest of all and in front a medium angular grio motor, in front of the robot there are three ultrasounds two on the sides of the robot and one in front of the robot, the one in front is the one that moves the robot to the right and the lateral ones to the left and right facilitating the detection of the walls, in addition the programming indicates a certain time in which they make the movement and how many cm they do it, the one in front is 100 cm and a lot since it is necessary for the robot to detect a wall long before to be able to make the turn in advance, the lateral ones at 35-50 cm since these do not have to detect as much as the front,
+a stick with small yeasts, our rear motor in a large angular motor for more momentum since it is the heaviest of all and in front a medium angular grio motor
+
+empezó como un modelo basado en un camión sin un sistema que controlara la rotación de las ruedas delanteras y estas solo estaban unidas al motor del robot desde abajo,
+luego modificamos el robot con un sistema de rotación sobre su propio eje y a partir de ahí fuimos haciendo pequeños cambios y reforzándolo con conexiones y demás
+Nuestra mayor dificultad es la rotación del robot ya que al parecer este es muy pesado y las llantas resbalan y no se guiarán bien además de que este no aguanta
+y las ruedas delanteras se salen al girar, este robot está basado en uno que hice con mi equipo el año pasado que era un Arduino, el robot actual es una espiga de Lego hecha de un motor que gira dos engranajes que mueven al robot hacia adelante y un movimiento de giro hacia adelante
+que también utiliza un motor que está conectado a una línea de engranajes y que tiene un conpe stick al frente
+un palo con pequeñas levaduras, nuestro motor trasero en un motor angular grande para más impulso ya que es el más pesado de todos y al frente un motor angular mediano
+
+COMPONENTS AND SHAPE/COMPONENTES Y FORMA
+
+in front of the robot there are three ultrasounds two on the sides of the robot and one in front of the robot, the one in front is the one that moves the robot to the right and the lateral ones to the left and right facilitating the detection of the walls, in addition the programming indicates a certain time in which they make the movement and how many cm they do it, the one in front is 100 cm and a lot since it is necessary for the robot to detect a wall long before to be able to make the turn in advance, the lateral ones at 35-50 cm since these do not have to detect as much as the front,
+
+al frente del robot hay tres ultrasonidos dos a los lados del robot y uno al frente del robot, el del frente es el que mueve al robot hacia la derecha y los laterales a la izquierda y derecha facilitando la deteccion de las paredes, ademas la programacion indica un tiempo determinado en el que hacen el movimiento y cuantos cm lo hacen, el del frente es a 100 cm y mucho ya que es necesario que el robot detecte una pared mucho antes para poder hacer el giro con antelación, los laterales a 35-50 cm ya que estos no tienen que detectar tanto como los del frente,
+
+WHY WE DOID/POR QUE LO HICIMOS
+
 We made this robot project in a mobile car model to demonstrate the force, mechanics, process and effort it takes to create a mobile device. It was also designed to handle automatically and provide a basis for a dependent and functional robot form. It is also a way to exemplify how a robot should be assembled, whether in terms of programming or construction. We also wanted to join future engineers to experience the effort of creating a robot and also what are the steps to follow or how creative one must be.
-our biggest difficulty is the rotation of the robot since apparently this is very heavy and the tires slip and does not They will guide well in addition to the fact that this one does not hold up when turning and the front wheels come off as it turns, this robot is based on one that I made with my team last year which was an Arduino, the current robot is a Lego spike made of a motor that turns two gears that move the robot forward and a forward turning movement that also uses a motor that is connected to a gear line and that has a conpe stick in front
+
+Desarrollamos este proyecto de robot en un modelo de coche móvil para demostrar la fuerza, la mecánica, el proceso y el esfuerzo necesarios para crear un dispositivo móvil. Además, fue diseñado para funcionar automáticamente y servir de base para una forma de robot dependiente y funcional. Es también una forma de ejemplificar cómo debe ensamblarse un robot, ya sea en términos de programación o construcción. También queríamos acompañar a futuros ingenieros para experimentar el esfuerzo de crear un robot, los pasos a seguir y la creatividad necesaria.
+
+PROGRAMMING/PROGRAMACION
+
+We made a programming for each phase of the competition and which mode it would give us, we also made the programming work in both ways and on both sides using blocks to move motors and object detection blocks for the ultrasounds like 35 or 25 cm the two on the side and 40 cm the one in front, also for the 2nd programming the color camera must be connected to work, this combines the previous programming but adding an extra part of programming using the detection of colors with the camera and moving depending on what color it is and what direction it should go, we also use the same detection blocks of the same category as the ultrasounds, we use 2 one for the red color and another for the green color
+
+hicimos una programacion para cada fase de la competencia y cual modo nos daria,tambien hicimos que la programacion funcionara de las dos formas y de los dos lados usando bloques de mover motores y blockes de deteccion de objetos para los ultrasonidos como a 35 o 25 cm los dos del lado y 40 cm el del enfrente ,tambien para la 2 programacion debe estar conectada la camara de color para funcionar, esta combina la anterior programacion pero añadiendole una parte extra de programacion usando  la detecion de colores con la camara y moviendose dependiendo de cual color sea y que direccion debe ir ,tambien usamos los mismos blockes de detecion de la misma categoria que el de los ultrasonidos, usamos 2 uno para el color rojo y otro para el color verde 
+
+PROGRAMING PROBLEMS/RETO EN LA PROGRAMACION 
+
+in the programming we had many complications, 1 we not being so adapted to LEGO SPIKE it was strange for us to use it even though it is easier than arduino, it was complicated for us to make the program understand the else if and the stop since sometimes when using these commands together the programming stopped at the stop and then we realized that it was because we used the stop that did not have time, another of the things are the ultrasounds that sometimes the cm were not enough and it was necessary to increase the distance and how much they could detect, also the motors since we did not want the robot to be so fast so we made the robot go at medium speed so that it would not hit anything or not detect so quickly,
+
+en la programacion tuvimos muchas complicaciones, 1 nosotros al no estar tan adaptados a LEGO SPIKE se nos hiso raro usarlo aun que sea mas facil que arduino,se nos complicaba hacer que el programa entendiera los else if y los stop ya que haveces al usar estos comandos juntos la programacion se paraba en el stop y despues nos dimos cuenta que era por que usabamos el stop que no teniaa tiempo, otra de las cosas son los ultrasonidos que haveces los cm no bastaban y tocaba aumentar la distancia y cuanto podian detectar, tambien los motores ya que no queriamos que el robot fuera tan rapido hasi que hicimos que el robot fuera a mediana velocidad para que no se golpeara con nada o no detectara tan rapido ,
+
